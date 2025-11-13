@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npx tsc --noEmit && npm test -- --ci",
+    "working_directory": "/home/kavia/workspace/code-generation/intelligent-chat-assistant-224137-224146/ai_chat_box_frontend"
+}
