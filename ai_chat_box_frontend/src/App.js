@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import ChatBot from './ChatBot';
+import SmartChatGPT from './SmartChatGPT';
 
 // PUBLIC_INTERFACE
 function App() {
@@ -26,8 +26,8 @@ function App() {
         >
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
-        {/* Render the SmartTalk ChatBot */}
-        <ChatBot />
+        {/* Render the new SmartChatGPT as the primary component */}
+        <SmartChatGPT />
       </header>
     </div>
   );
